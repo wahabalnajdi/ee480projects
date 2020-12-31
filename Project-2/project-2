@@ -1,0 +1,12 @@
+nano pro3.sh
+
+#!/bin/bash
+
+
+echo heatbeat | sudo tee /sys/class/leds/led0/trigger;
+echo heatbeat | sudo tee /sys/class/leds/led1/trigger
+
+
+
+ sudo chmod +x pro3.sh
+ sh pro3.sh
