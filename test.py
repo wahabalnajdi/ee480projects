@@ -1,5 +1,5 @@
-def mian ();
+def mian ():
 
-prinf("hello wahab");
-
+	print ("hello wahab")
+	print ("WKU")
 mian()
