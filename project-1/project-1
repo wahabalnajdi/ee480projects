@@ -1,0 +1,50 @@
+C
+
+nano helloworld.c    // open new file
+
+code
+
+#include <stdio.h>
+
+int main()
+{
+printf("Hello Worold\n");
+ return 0;
+}
+
+gcc -o helloworld helloworld.c //run the file
+./helloworld
+_______________________________________________
+C++
+
+nano helloWorld.cpp
+
+code 
+#include <iostream>
+
+        using namespace std;
+
+        int main()
+{
+
+        cout << "Hello World\n" ;
+
+return 0;
+
+}
+
+g++ -o helloWorldpp helloWorld.cpp
+./helloWorldpp
+
+__________________________________________________________
+Python3
+
+nano HelloWorld.py
+
+code
+
+print ("Hello World\n");
+
+sudo python3 HelloWorld.py
+
+________________________________________________
